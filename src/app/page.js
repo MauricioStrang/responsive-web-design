@@ -6,20 +6,11 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <div>
-         <h1>CatPhoto App
-          <p>Cats are really agile</p>
-          <ul>
-            <li>
-              cats are dumb
-            </li>
-            <li>
-              cats are cute
-            </li>
-          </ul>
-         </h1>
-         <img src="cat.jpg" alt=""></img>
-
+      <div className={styles.container}>
+        <h1>CatPhotoApp</h1>
+        <h2>Cat Photos</h2>
+        <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt=""/>
       </div>
   );
 }
