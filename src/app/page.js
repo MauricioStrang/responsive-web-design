@@ -11,6 +11,7 @@ export default function Home() {
         <h2>Cat Photos</h2>
         <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
         <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt=""/>
+        <ul></ul>
       </div>
   );
 }
